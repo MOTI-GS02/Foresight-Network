@@ -19,7 +19,7 @@ export default function NavBar({
     <nav className="w-full flex items-center justify-between px-6 py-4">
       <div className="text-xl font-bold text-indigo-400">Foresight</div>
 
-      <div className="flex-1 flex justify-center space-x-6">
+      <div className="font-semibold flex-1 flex justify-center space-x-6">
         <Link to="/" className="text-gray-200 hover:text-white">
           Início
         </Link>
@@ -38,7 +38,7 @@ export default function NavBar({
       <div>
         <button
           onClick={toggleMode}
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+          className="font-semibold px-4 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-950"
         >
           {isBrightMode ? "Dark Mode" : "Bright Mode"}
         </button>
