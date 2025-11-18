@@ -1,0 +1,3422 @@
+[
+  {
+    "id": 1,
+    "nome": "Profissional 1",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=1",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "HTML",
+      "Python",
+      "Java",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Criatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 19",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 1",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Profissional 2",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=2",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "SQL",
+      "HTML",
+      "Python",
+      "React"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Criatividade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 18",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 2",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Automação"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Profissional 3",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=3",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Python",
+      "HTML"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Trabalho em equipe",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 19",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 3",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Automação"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Profissional 4",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=4",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "CSS",
+      "Python",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 15",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 4",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Azure Basics",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Profissional 5",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=5",
+    "cargo": "Administrador de Redes",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Python",
+      "JavaScript",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 37",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 5",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Profissional 6",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=6",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Python",
+      "Java",
+      "Node.js",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 6",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Profissional 7",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=7",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "React",
+      "Python",
+      "SQL",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 27",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 7",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "IA"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Profissional 8",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=8",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "React",
+      "HTML",
+      "CSS",
+      "Java"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 36",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 8",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Educação"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Profissional 9",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=9",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "HTML",
+      "Tailwind",
+      "Java"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Resiliência",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 19",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 9",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Profissional 10",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=10",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "HTML",
+      "Python",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 40",
+        "cargo": "Analista de Dados",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 10",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "IA"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Profissional 11",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=11",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "Python",
+      "Tailwind",
+      "Java"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Comunicação",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 33",
+        "cargo": "Desenvolvedor Back-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 11",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Profissional 12",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=12",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Java",
+      "SQL",
+      "React",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 15",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 12",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Educação"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Profissional 13",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=13",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Node.js",
+      "Java",
+      "SQL"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Resiliência",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 3",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 13",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Profissional 14",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=14",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "SQL",
+      "HTML",
+      "React",
+      "CSS"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 48",
+        "cargo": "Analista de Dados",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 14",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Profissional 15",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=15",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "Python",
+      "Node.js",
+      "Java"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 35",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 15",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Profissional 16",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=16",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "React",
+      "CSS",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 49",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 16",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Educação"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Profissional 17",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=17",
+    "cargo": "Administrador de Redes",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Java",
+      "Node.js",
+      "SQL"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Criatividade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 37",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 17",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Automação"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Profissional 18",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=18",
+    "cargo": "Administrador de Redes",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "React",
+      "Tailwind",
+      "CSS",
+      "HTML"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 46",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 18",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Profissional 19",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=19",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "HTML",
+      "React",
+      "SQL"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Criatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 20",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 19",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Automação"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Profissional 20",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=20",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Node.js",
+      "JavaScript",
+      "React"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Adaptabilidade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 48",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 20",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Profissional 21",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=21",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Python",
+      "CSS",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 16",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 21",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Profissional 22",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=22",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Python",
+      "CSS",
+      "Java"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 16",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 22",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "IA"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Profissional 23",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=23",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Node.js",
+      "HTML",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Resiliência",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 50",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 23",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "IA"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Profissional 24",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=24",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "React",
+      "SQL",
+      "Tailwind",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 37",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 24",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Profissional 25",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=25",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "CSS",
+      "React",
+      "Node.js",
+      "HTML"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 45",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 25",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Profissional 26",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=26",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "React",
+      "Java",
+      "Tailwind",
+      "Python"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 23",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 26",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Profissional 27",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=27",
+    "cargo": "Administrador de Redes",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "Node.js",
+      "Java",
+      "SQL"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Resiliência",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 39",
+        "cargo": "Desenvolvedor Back-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 27",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Profissional 28",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=28",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "SQL",
+      "CSS",
+      "Python",
+      "HTML"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 8",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 28",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Automação"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Profissional 29",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=29",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "HTML",
+      "SQL",
+      "CSS"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Resiliência",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 43",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 29",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Educação"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Profissional 30",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=30",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "React",
+      "Python",
+      "Java"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 11",
+        "cargo": "Desenvolvedor Back-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 30",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "IA"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Profissional 31",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=31",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "SQL",
+      "JavaScript",
+      "Python",
+      "React"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Adaptabilidade",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 9",
+        "cargo": "Desenvolvedor Back-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 31",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Azure Basics",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Educação"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Profissional 32",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=32",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "HTML",
+      "Java",
+      "Tailwind",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 7",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 32",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Profissional 33",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=33",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "CSS",
+      "HTML",
+      "Java",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 42",
+        "cargo": "Desenvolvedor Back-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 33",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Profissional 34",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=34",
+    "cargo": "Administrador de Redes",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Node.js",
+      "Python",
+      "HTML"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 39",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 34",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Profissional 35",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=35",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "Tailwind",
+      "SQL",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 42",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 35",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Educação"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Profissional 36",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=36",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "JavaScript",
+      "Java"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 43",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 36",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Azure Basics",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Profissional 37",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=37",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Java",
+      "JavaScript",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 13",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 37",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Educação"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Profissional 38",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=38",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Python",
+      "HTML",
+      "Java",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Trabalho em equipe",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 42",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 38",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Azure Basics",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Educação"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Profissional 39",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=39",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "CSS",
+      "Tailwind",
+      "Java"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 12",
+        "cargo": "Desenvolvedor Back-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 39",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Profissional 40",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=40",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "CSS",
+      "Tailwind",
+      "React"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Resiliência",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 18",
+        "cargo": "Analista de Dados",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 40",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Azure Basics",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "IA"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Profissional 41",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=41",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Python"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 37",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 41",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Educação"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Profissional 42",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=42",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Python",
+      "Java",
+      "HTML"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Resiliência",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 9",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 42",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Profissional 43",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=43",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "React",
+      "HTML",
+      "Tailwind",
+      "Python"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 43",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "IA"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Profissional 44",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=44",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "CSS",
+      "Python",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 28",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 44",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "IA"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Profissional 45",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=45",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "CSS",
+      "JavaScript",
+      "Java",
+      "React"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 31",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 45",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Profissional 46",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=46",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "React",
+      "Node.js",
+      "Python"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Criatividade",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 43",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 46",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Profissional 47",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=47",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Java",
+      "SQL",
+      "Node.js",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Trabalho em equipe",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 9",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 47",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Profissional 48",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=48",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Java",
+      "React",
+      "SQL",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Adaptabilidade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 16",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 48",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Cloud"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Profissional 49",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=49",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "SQL",
+      "Java",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Trabalho em equipe",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 23",
+        "cargo": "Engenheiro de Software",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 49",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Automação"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Profissional 50",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=50",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Python",
+      "Tailwind",
+      "Java",
+      "React"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 8",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 50",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Azure Basics",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Educação"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Profissional 51",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=51",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "HTML",
+      "Java",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 22",
+        "cargo": "Designer UX/UI",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 51",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "Scrum Foundation"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Automação"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Profissional 52",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=52",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Python",
+      "CSS",
+      "HTML"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 15",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 52",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Educação"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Profissional 53",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=53",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "CSS",
+      "SQL",
+      "React"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Adaptabilidade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 17",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 53",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "Azure Basics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Educação"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Profissional 54",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=54",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "JavaScript",
+      "Python",
+      "SQL"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Resiliência",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 38",
+        "cargo": "Analista de Dados",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 54",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Educação"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Profissional 55",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=55",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Java",
+      "React",
+      "CSS"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Adaptabilidade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 5",
+        "cargo": "Analista de Dados",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "Universidade XPTO",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 55",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Automação"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Profissional 56",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=56",
+    "cargo": "Desenvolvedor Back-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "HTML",
+      "Node.js",
+      "React",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 44",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 56",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Google Cloud Essentials",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "Automação"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Profissional 57",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=57",
+    "cargo": "Desenvolvedor Front-End",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Node.js",
+      "Java",
+      "React"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência",
+      "Adaptabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 10",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 57",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Foundation",
+      "AWS Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA",
+      "Automação"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Profissional 58",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=58",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "CSS",
+      "JavaScript",
+      "React",
+      "Python"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 23",
+        "cargo": "Administrador de Redes",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 58",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Python for Everybody",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Tecnologia Sustentável"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Profissional 59",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=59",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "HTML",
+      "Java",
+      "SQL",
+      "Python"
+    ],
+    "softSkills": [
+      "Adaptabilidade",
+      "Resiliência",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 25",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Universidade XPTO",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 59",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "AWS Fundamentals",
+      "Python for Everybody"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areaInteresses": [
+      "Tecnologia Sustentável",
+      "Automação"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Profissional 60",
+    "foto": "https://source.unsplash.com/random/400x400?portrait,face&sig=60",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Python",
+      "CSS",
+      "HTML",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Trabalho em equipe",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 37",
+        "cargo": "Desenvolvedor Front-End",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "Universidade XPTO",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto 60",
+        "link": "https://github.com/exemplo",
+        "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+      }
+    ],
+    "certificacoes": [
+      "Azure Basics",
+      "Google Cloud Essentials"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Cloud",
+      "IA"
+    ]
+  }
+]
