@@ -1,12 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { useOutletContext } from "react-router-dom";
 import ProfileCard from "../components/ProfileCard";
 import ProfileModal from "../components/ProfileDetails";
-import perfisData from "../perfis.json"; // Certifique-se que o caminho está correto!
-
+import SearchFilters from "../components/SearchFilters";
+import perfisData from "../perfis.json";
 function Home() {
   const { isBrightMode } = useOutletContext();
   const [selectedProfile, setSelectedProfile] = useState(null);
+  const [filters, setFilters] = useState({
+    searchQuery: "",
+    selectedSkill: "",
+    selectedPosition: "",
+  });
 
   // Configurações de tema
   const bgClass = isBrightMode ? "bg-[#f8fafc]" : "bg-black";
@@ -20,13 +25,34 @@ function Home() {
 
   const handleOpenProfile = (profile) => {
     setSelectedProfile(profile);
-    document.body.style.overflow = "hidden"; // Trava o scroll da página
+    document.body.style.overflow = "hidden"; 
   };
 
   const handleCloseProfile = () => {
     setSelectedProfile(null);
-    document.body.style.overflow = "auto"; // Destrava o scroll
+    document.body.style.overflow = "auto"; 
   };
+
+  const handleFiltersChange = (newFilters) => {
+    setFilters(newFilters);
+  };
+
+  // Filtrar perfis
+  const filteredProfiles = useMemo(() => {
+    return perfisData.filter((profile) => {
+      const matchesSearch = filters.searchQuery === "" ||
+        profile.nome.toLowerCase().includes(filters.searchQuery.toLowerCase()) ||
+        profile.cargo.toLowerCase().includes(filters.searchQuery.toLowerCase());
+
+      const matchesSkill = filters.selectedSkill === "" ||
+        profile.habilidadesTecnicas?.includes(filters.selectedSkill);
+
+      const matchesPosition = filters.selectedPosition === "" ||
+        profile.cargo === filters.selectedPosition;
+
+      return matchesSearch && matchesSkill && matchesPosition;
+    });
+  }, [filters]);
 
   return (
     <div
@@ -230,10 +256,13 @@ function Home() {
             </div>
           </div>
 
+          {/* FILTROS DE BUSCA */}
+          <SearchFilters onFiltersChange={handleFiltersChange} isBrightMode={isBrightMode} />
+
           {/* GRID DE CARDS */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {perfisData && perfisData.length > 0 ? (
-              perfisData.map((profile) => (
+            {filteredProfiles && filteredProfiles.length > 0 ? (
+              filteredProfiles.map((profile) => (
                 <ProfileCard
                   key={profile.id}
                   data={profile}
@@ -243,7 +272,7 @@ function Home() {
               ))
             ) : (
               <div className={`col-span-full text-center py-20 ${textSub}`}>
-                Nenhum perfil carregado. Verifique o arquivo JSON.
+                Nenhum perfil encontrado com os filtros aplicados.
               </div>
             )}
           </div>

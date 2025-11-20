@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ProfileCard({ data, onClick, isBrightMode }) {
-  // Proteção contra dados vazios
   if (!data) return null;
 
   return (
@@ -54,7 +53,7 @@ export default function ProfileCard({ data, onClick, isBrightMode }) {
             }`}
             onError={(e) => {
               e.target.src = "https://via.placeholder.com/150";
-            }} // Evita erro de imagem quebrada
+            }}
           />
         </div>
 
