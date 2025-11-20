@@ -5,6 +5,18 @@ export default function NavBar({
   isBrightMode = false,
   toggleMode = () => {},
 }) {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setIsScrolled(scrollTop > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const handleProfilesClick = (e) => {
     e.preventDefault();
     const el = document.getElementById("profiles");
@@ -53,9 +65,9 @@ export default function NavBar({
 
   return (
     /* Container Principal Fixo */
-    <div className="fixed top-6 left-0 right-0 flex justify-center z-50 pointer-events-none">
+    <div className={`fixed top-0 left-0 right-0 flex justify-center z-50 pointer-events-none transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-md pb-6' : ''}`}>
       {/* Container Limitador de Largura (max-w-6xl) */}
-      <div className="w-full max-w-6xl px-6 flex items-center justify-between relative">
+      <div className="w-full max-w-6xl px-6 flex items-center justify-between relative pt-6">
         {/* 1. LOGO (Com Imagem + Texto e Link para Home) */}
         <div className="pointer-events-auto">
           <Link
