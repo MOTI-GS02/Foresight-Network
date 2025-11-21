@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 export default function ProfileModal({
   profile,
   isOpen,
@@ -8,6 +10,29 @@ export default function ProfileModal({
 
   const handleOverlayClick = (e) => {
     if (e.target === e.currentTarget) onClose();
+  };
+
+  const handleRecommend = () => {
+    toast.success(`${profile.nome} foi recomendado(a) com sucesso!`, {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+    });
+  };
+
+  const handleSendMessage = () => {
+    toast.info(`Enviando mensagem de email para ${profile.nome}!`, {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      onClose: () => {
+        window.location.href = `mailto:${profile.email}`;
+      },
+    });
   };
 
   return (
@@ -117,6 +142,7 @@ export default function ProfileModal({
 
           <div className="w-full mt-8 space-y-3">
             <button
+              onClick={handleSendMessage}
               className={`w-full py-3 rounded-xl font-bold shadow-lg transition-all ${
                 isBrightMode
                   ? "bg-indigo-600 hover:bg-indigo-700 text-white"
@@ -126,6 +152,7 @@ export default function ProfileModal({
               Enviar Mensagem
             </button>
             <button
+              onClick={handleRecommend}
               className={`w-full py-3 rounded-xl font-bold border transition-all ${
                 isBrightMode
                   ? "border-gray-300 text-gray-700 hover:bg-gray-50"

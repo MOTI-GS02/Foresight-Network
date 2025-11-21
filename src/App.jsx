@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom";
 import { useState } from "react";
 import Navbar from "./components/NavBar";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function App() {
   const [isBrightMode, setIsBrightMode] = useState(false);
@@ -13,6 +15,7 @@ export default function App() {
       <main>
         <Outlet context={{ isBrightMode }} />
       </main>
+      <ToastContainer theme={isBrightMode ? "light" : "dark"} />
     </div>
   );
 }
