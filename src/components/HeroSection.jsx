@@ -6,8 +6,19 @@ export default function HeroSection({ isBrightMode }) {
     ? "text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600"
     : "text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-blue-500";
 
+  const handleLinkClick = (e, name) => {
+    e.preventDefault();
+    const el = document.getElementById(name);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
-    <section className="relative pt-32 pb-24 px-6 max-w-7xl mx-auto min-h-[90vh] flex flex-col lg:flex-row items-center z-10">
+    <section
+      id="hero"
+      className="relative pt-32 pb-24 px-6 max-w-7xl mx-auto min-h-[90vh] flex flex-col lg:flex-row items-center z-10"
+    >
       {/* Texto (Esquerda) */}
       <div className="flex-1 text-center lg:text-left z-10">
         <div
@@ -51,7 +62,8 @@ export default function HeroSection({ isBrightMode }) {
           >
             EXPLORAR TALENTOS
           </a>
-          <button
+          <a
+            onClick={(e) => handleLinkClick(e, "footer")}
             className={`px-8 py-4 rounded-full font-bold text-sm tracking-wide border transition-all ${
               isBrightMode
                 ? "border-gray-300 text-gray-600 hover:border-gray-400"
@@ -59,7 +71,7 @@ export default function HeroSection({ isBrightMode }) {
             }`}
           >
             SAIBA MAIS
-          </button>
+          </a>
         </div>
       </div>
 

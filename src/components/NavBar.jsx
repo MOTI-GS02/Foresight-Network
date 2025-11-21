@@ -16,9 +16,9 @@ export default function NavBar({
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleProfilesClick = (e) => {
+  const handleLinkClick = (e, name) => {
     e.preventDefault();
-    const el = document.getElementById("profiles");
+    const el = document.getElementById(name);
     if (el) {
       el.scrollIntoView({ behavior: "smooth", block: "start" });
     }
@@ -63,27 +63,26 @@ export default function NavBar({
               : "bg-gray-900/80 border-gray-700 shadow-lg text-gray-200"
           }`}
         >
-          <Link
-            to="/"
+          <a
+            onClick={(e) => handleLinkClick(e, "hero")}
             className="hover:opacity-70 transition-opacity text-sm font-semibold"
           >
             Início
-          </Link>
+          </a>
 
           <a
-            href="#profiles"
-            onClick={handleProfilesClick}
+            onClick={(e) => handleLinkClick(e, "profiles")}
             className="hover:opacity-70 cursor-pointer transition-opacity text-sm font-semibold"
           >
             Perfis
           </a>
 
-          <Link
-            to="#contato"
+          <a
+            onClick={(e) => handleLinkClick(e, "footer")}
             className="hover:opacity-70 transition-opacity text-sm font-semibold"
           >
             Contato
-          </Link>
+          </a>
         </nav>
 
         {/* 3. THEME TOGGLE - Otimizado para mobile */}
