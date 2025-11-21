@@ -5,210 +5,561 @@
       "nome": "Ana Beatriz Martins",
       "foto": "https://this-person-does-not-exist.com/img/avatar-gen56b8ad2e6067bca6690ab7420c2ec4b9.jpg",
       "cargo": "Desenvolvedor Front-End",
-      "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+      "resumo": "Desenvolvedora Front-End especializada em React e Next.js, com mais de 4 anos de experiência criando interfaces modernas e acessíveis. Apaixonada por UX/UI e performance web, sempre buscando entregar a melhor experiência para o usuário final.",
       "localizacao": "Rio de Janeiro/RJ",
       "area": "Desenvolvimento",
-      "habilidadesTecnicas": ["Python", "CSS", "HTML", "SQL"],
-      "softSkills": ["Resiliência", "Comunicação", "Adaptabilidade"],
+      "habilidadesTecnicas": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Tailwind CSS",
+        "Figma"
+      ],
+      "softSkills": [
+        "Resiliência",
+        "Comunicação",
+        "Adaptabilidade",
+        "Pensamento crítico"
+      ],
       "experiencias": [
         {
-          "empresa": "Empresa 50",
-          "cargo": "Engenheiro de Software",
-          "inicio": "2021-01",
-          "fim": "2024-06",
-          "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+          "empresa": "TechCorp Solutions",
+          "cargo": "Desenvolvedora Front-End Sênior",
+          "inicio": "2022-03",
+          "fim": "Atual",
+          "descricao": "Liderança técnica em projetos de e-commerce com React/Next.js. Implementação de design systems e otimização de performance, resultando em 40% de melhoria no Core Web Vitals. Mentoria de desenvolvedores júnior."
+        },
+        {
+          "empresa": "StartupXYZ",
+          "cargo": "Desenvolvedora Front-End",
+          "inicio": "2020-08",
+          "fim": "2022-02",
+          "descricao": "Desenvolvimento de SPA responsivas com React e Redux. Colaboração direta com designers para implementar protótipos do Figma. Integração com APIs RESTful e implementação de testes unitários com Jest."
+        },
+        {
+          "empresa": "Agência Digital Criativa",
+          "cargo": "Desenvolvedora Front-End Júnior",
+          "inicio": "2019-01",
+          "fim": "2020-07",
+          "descricao": "Desenvolvimento de sites institucionais e landing pages com HTML5, CSS3 e JavaScript vanilla. Otimização SEO e implementação de animações CSS."
         }
       ],
       "formacao": [
         {
-          "curso": "Tecnologia da Informação",
-          "instituicao": "Universidade XPTO",
-          "ano": 2023
+          "curso": "Bacharelado em Sistemas de Informação",
+          "instituicao": "PUC-Rio",
+          "ano": 2018
+        },
+        {
+          "curso": "Pós-graduação em UX/UI Design",
+          "instituicao": "ESPM Rio",
+          "ano": 2021
         }
       ],
       "projetos": [
         {
-          "titulo": "Projeto 1",
-          "link": "https://github.com/exemplo",
-          "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+          "titulo": "E-commerce Sustentável",
+          "link": "https://github.com/anabeatriz/ecommerce-sustentavel",
+          "descricao": "Plataforma de e-commerce focada em produtos sustentáveis, desenvolvida com Next.js, TypeScript e Stripe. Implementação de dark mode, PWA e otimizações de performance."
+        },
+        {
+          "titulo": "Dashboard Analítico",
+          "link": "https://github.com/anabeatriz/analytics-dashboard",
+          "descricao": "Dashboard responsivo para visualização de dados com React, Chart.js e Material-UI. Integração com API própria e implementação de filtros dinâmicos."
+        },
+        {
+          "titulo": "Portfolio Interativo",
+          "link": "https://github.com/anabeatriz/portfolio-2024",
+          "descricao": "Portfolio pessoal com animações avançadas usando Framer Motion, Three.js para elementos 3D e otimizado para performance mobile."
         }
       ],
-      "certificacoes": ["Azure Basics", "Python for Everybody"],
+      "certificacoes": [
+        "React Developer Certificate - Meta",
+        "Next.js Professional Certificate",
+        "Google Analytics Individual Qualification"
+      ],
       "idiomas": [
         {
+          "idioma": "Inglês",
+          "nivel": "Avançado"
+        },
+        {
           "idioma": "Espanhol",
-          "nivel": "Básico"
+          "nivel": "Intermediário"
         }
       ],
-      "areaInteresses": ["IA", "Tecnologia Sustentável"]
+      "areaInteresses": [
+        "IA",
+        "Tecnologia Sustentável",
+        "Acessibilidade Web",
+        "Performance Web"
+      ]
     },
     {
       "id": 2,
       "nome": "Lucas Andrade Silva",
       "foto": "https://this-person-does-not-exist.com/img/avatar-genbec06538aa654131b55604c44ddbb074.jpg",
-      "cargo": "Desenvolvedor Front-End",
-      "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+      "cargo": "UX/UI Designer",
+      "resumo": "Designer UX/UI com sólida formação em Ciência da Computação e 5+ anos de experiência criando experiências digitais excepcionais. Especialista em Design Thinking, prototipação e pesquisa de usuário, com foco em soluções centradas no usuário.",
       "localizacao": "Belo Horizonte/MG",
       "area": "Design",
-      "habilidadesTecnicas": ["Java", "CSS", "JavaScript", "Tailwind"],
-      "softSkills": ["Trabalho em equipe", "Resiliência", "Comunicação"],
+      "habilidadesTecnicas": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "Prototyping",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "User Research"
+      ],
+      "softSkills": [
+        "Trabalho em equipe",
+        "Resiliência",
+        "Comunicação",
+        "Empatia",
+        "Pensamento crítico"
+      ],
       "experiencias": [
         {
-          "empresa": "Empresa 29",
-          "cargo": "Analista de Dados",
-          "inicio": "2021-01",
-          "fim": "2024-06",
-          "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+          "empresa": "iFood",
+          "cargo": "UX/UI Designer Sênior",
+          "inicio": "2022-01",
+          "fim": "Atual",
+          "descricao": "Liderança de design para o app de delivery, conduzindo pesquisas de usuário e testes A/B. Redesign do fluxo de checkout que aumentou conversão em 25%. Colaboração com equipes de produto e desenvolvimento."
+        },
+        {
+          "empresa": "Stone Co.",
+          "cargo": "Product Designer",
+          "inicio": "2020-06",
+          "fim": "2021-12",
+          "descricao": "Design de interfaces para soluções fintech B2B. Criação de design system completo e condução de workshops de Design Thinking. Melhoria de 40% na satisfação do usuário."
+        },
+        {
+          "empresa": "AgênciaUX",
+          "cargo": "UX Designer",
+          "inicio": "2018-03",
+          "fim": "2020-05",
+          "descricao": "Desenvolvimento de wireframes, protótipos e testes de usabilidade para diversos clientes. Especialização em e-commerce e aplicativos móveis."
         }
       ],
       "formacao": [
         {
-          "curso": "Ciência da Computação",
-          "instituicao": "Universidade XPTO",
-          "ano": 2024
+          "curso": "Bacharelado em Ciência da Computação",
+          "instituicao": "UFMG",
+          "ano": 2018
+        },
+        {
+          "curso": "MBA em Design de Experiência do Usuário",
+          "instituicao": "FIAP",
+          "ano": 2020
+        },
+        {
+          "curso": "Certificação em Design Thinking",
+          "instituicao": "d.school Stanford",
+          "ano": 2019
         }
       ],
       "projetos": [
         {
-          "titulo": "Projeto 2",
-          "link": "https://github.com/exemplo",
-          "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+          "titulo": "App de Mobilidade Urbana",
+          "link": "https://behance.net/lucas/mobility-app",
+          "descricao": "Design completo de aplicativo para mobilidade urbana sustentável. Pesquisa de usuário, personas, jornadas e protótipo interativo. Projeto ganhador do Prêmio UX Design Brasil 2023."
+        },
+        {
+          "titulo": "Design System - FinanceUI",
+          "link": "https://github.com/lucas/finance-ui-system",
+          "descricao": "Sistema de design completo para aplicações financeiras, com componentes em Figma e código React. Documentação completa e guidelines de uso."
+        },
+        {
+          "titulo": "Redesign E-commerce Sustentável",
+          "link": "https://behance.net/lucas/ecommerce-redesign",
+          "descricao": "Redesign completo de e-commerce focado em sustentabilidade. Pesquisa de usuário, arquitetura de informação e prototipagem de alta fidelidade."
         }
       ],
-      "certificacoes": ["Google Cloud Essentials", "Python for Everybody"],
+      "certificacoes": [
+        "Google UX Design Professional Certificate",
+        "Adobe Certified Expert - XD",
+        "Certified Usability Analyst (CUA)"
+      ],
       "idiomas": [
+        {
+          "idioma": "Inglês",
+          "nivel": "Fluente"
+        },
         {
           "idioma": "Espanhol",
           "nivel": "Avançado"
+        },
+        {
+          "idioma": "Francês",
+          "nivel": "Básico"
         }
       ],
-      "areaInteresses": ["Tecnologia Sustentável", "Cloud"]
+      "areaInteresses": [
+        "Tecnologia Sustentável",
+        "Design Inclusivo",
+        "IA aplicada ao Design",
+        "Psicologia Cognitiva"
+      ]
     },
     {
       "id": 3,
       "nome": "Mariana Costa Souza",
       "foto": "https://this-person-does-not-exist.com/img/avatar-genea2cbf8f38d31fa828bda9b469b8f60c.jpg",
-      "cargo": "Desenvolvedor Back-End",
-      "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+      "cargo": "Cientista de Dados",
+      "resumo": "Cientista de Dados especializada em Machine Learning e Analytics, com 6+ anos transformando dados em insights estratégicos. Doutoranda em IA pela UFPR, com expertise em deep learning, NLP e visão computacional aplicados a problemas reais de negócio.",
       "localizacao": "Curitiba/PR",
       "area": "Dados",
-      "habilidadesTecnicas": ["CSS", "JavaScript", "SQL", "React"],
-      "softSkills": ["Adaptabilidade", "Trabalho em equipe", "Criatividade"],
+      "habilidadesTecnicas": [
+        "Python",
+        "R",
+        "SQL",
+        "TensorFlow",
+        "PyTorch",
+        "Pandas",
+        "Scikit-learn",
+        "Apache Spark",
+        "Docker",
+        "AWS",
+        "Power BI"
+      ],
+      "softSkills": [
+        "Adaptabilidade",
+        "Trabalho em equipe",
+        "Criatividade",
+        "Pensamento analítico",
+        "Comunicação técnica"
+      ],
       "experiencias": [
         {
-          "empresa": "Empresa 40",
-          "cargo": "Engenheiro de Software",
-          "inicio": "2021-01",
-          "fim": "2024-06",
-          "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+          "empresa": "Banco Inter",
+          "cargo": "Cientista de Dados Sênior",
+          "inicio": "2021-08",
+          "fim": "Atual",
+          "descricao": "Desenvolvimento de modelos de ML para detecção de fraudes e análise de risco de crédito. Implementação de pipeline de dados em tempo real processando 1M+ transações/dia. Redução de 35% em falsos positivos."
+        },
+        {
+          "empresa": "Movile",
+          "cargo": "Data Scientist",
+          "inicio": "2019-03",
+          "fim": "2021-07",
+          "descricao": "Análise preditiva para otimização de delivery e sistemas de recomendação. Desenvolvimento de algoritmos de clustering para segmentação de usuários. A/B testing e análise de métricas de produto."
+        },
+        {
+          "empresa": "LACTEC",
+          "cargo": "Analista de Dados",
+          "inicio": "2017-06",
+          "fim": "2019-02",
+          "descricao": "Análise de dados de sensores IoT para manutenção preditiva em usinas hidrelétricas. Desenvolvimento de dashboards executivos e relatórios automatizados."
         }
       ],
       "formacao": [
         {
-          "curso": "Ciência da Computação",
-          "instituicao": "Universidade XPTO",
-          "ano": 2020
+          "curso": "Doutorado em Inteligência Artificial (em andamento)",
+          "instituicao": "UFPR",
+          "ano": 2025
+        },
+        {
+          "curso": "Mestrado em Ciência da Computação",
+          "instituicao": "UFPR",
+          "ano": 2019
+        },
+        {
+          "curso": "Bacharelado em Estatística",
+          "instituicao": "UFPR",
+          "ano": 2017
         }
       ],
       "projetos": [
         {
-          "titulo": "Projeto 3",
-          "link": "https://github.com/exemplo",
-          "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+          "titulo": "Predição de Doenças Cardíacas com Deep Learning",
+          "link": "https://github.com/mariana/heart-disease-prediction",
+          "descricao": "Modelo de deep learning para predição precoce de doenças cardíacas usando dados de exames. Accuracy de 94% e implementação em produção hospitalar. Publicado na IEEE."
+        },
+        {
+          "titulo": "Sistema de Recomendação para E-learning",
+          "link": "https://github.com/mariana/edu-recommender",
+          "descricao": "Sistema híbrido de recomendação personalizada para plataformas educacionais. Combina collaborative filtering e content-based filtering com NLP para análise de conteúdo."
+        },
+        {
+          "titulo": "Análise de Sentimentos em Redes Sociais",
+          "link": "https://github.com/mariana/social-sentiment-analysis",
+          "descricao": "Pipeline completo para análise de sentimentos em tempo real usando BERT e processamento de stream. Dashboard interativo com insights de brand monitoring."
+        },
+        {
+          "titulo": "Otimização de Rotas com IA",
+          "link": "https://github.com/mariana/route-optimization-ai",
+          "descricao": "Algoritmo genético para otimização de rotas de entrega considerando tráfego em tempo real. Redução de 22% no tempo de entrega em testes piloto."
         }
       ],
-      "certificacoes": ["Scrum Foundation", "Azure Basics"],
+      "certificacoes": [
+        "AWS Certified Machine Learning - Specialty",
+        "Google Cloud Professional Data Engineer",
+        "TensorFlow Developer Certificate",
+        "Microsoft Azure AI Engineer"
+      ],
       "idiomas": [
+        {
+          "idioma": "Inglês",
+          "nivel": "Fluente"
+        },
         {
           "idioma": "Espanhol",
           "nivel": "Avançado"
+        },
+        {
+          "idioma": "Alemão",
+          "nivel": "Intermediário"
         }
       ],
-      "areaInteresses": ["Educação", "Tecnologia Sustentável"]
+      "areaInteresses": [
+        "Educação",
+        "Tecnologia Sustentável",
+        "IA Explicável",
+        "Saúde Digital",
+        "NLP",
+        "Computer Vision"
+      ]
     },
     {
       "id": 4,
       "nome": "Pedro Henrique Ramos",
       "foto": "https://this-person-does-not-exist.com/img/avatar-gena349546d407d4caff346beee19b32d41.jpg",
       "cargo": "Desenvolvedor Back-End",
-      "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+      "resumo": "Desenvolvedor Back-End especialista em arquiteturas escaláveis e microsserviços. 7+ anos de experiência construindo APIs robustas e sistemas distribuídos. Apaixonado por clean code, DevOps e performance optimization, sempre buscando soluções elegantes para problemas complexos.",
       "localizacao": "Rio de Janeiro/RJ",
       "area": "Desenvolvimento",
-      "habilidadesTecnicas": ["React", "Tailwind", "CSS", "Java"],
-      "softSkills": ["Adaptabilidade", "Resiliência", "Criatividade"],
+      "habilidadesTecnicas": [
+        "Java",
+        "Spring Boot",
+        "Node.js",
+        "Python",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Microservices",
+        "GraphQL"
+      ],
+      "softSkills": [
+        "Adaptabilidade",
+        "Resiliência",
+        "Criatividade",
+        "Liderança técnica",
+        "Resolução de problemas"
+      ],
       "experiencias": [
         {
-          "empresa": "Empresa 28",
-          "cargo": "Analista de Dados",
-          "inicio": "2021-01",
-          "fim": "2024-06",
-          "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+          "empresa": "Nubank",
+          "cargo": "Software Engineer III",
+          "inicio": "2021-09",
+          "fim": "Atual",
+          "descricao": "Desenvolvimento de microsserviços críticos para sistema de pagamentos processando R$ 50B+ mensalmente. Liderança técnica de squad de 6 desenvolvedores. Implementação de arquitetura event-driven reduzindo latência em 60%."
+        },
+        {
+          "empresa": "Stone Co.",
+          "cargo": "Desenvolvedor Back-End Sênior",
+          "inicio": "2019-02",
+          "fim": "2021-08",
+          "descricao": "Arquitetura e desenvolvimento de APIs REST para soluções de pagamento B2B. Otimização de queries complexas e implementação de caching distribuído. Migração de monólito para microsserviços."
+        },
+        {
+          "empresa": "Globo.com",
+          "cargo": "Desenvolvedor Back-End Pleno",
+          "inicio": "2017-01",
+          "fim": "2019-01",
+          "descricao": "Desenvolvimento de APIs para plataformas de streaming com milhões de usuários. Implementação de sistemas de recomendação e otimização de performance para alta concorrência."
         }
       ],
       "formacao": [
         {
-          "curso": "Design Digital",
-          "instituicao": "Universidade XPTO",
-          "ano": 2022
+          "curso": "Bacharelado em Engenharia de Computação",
+          "instituicao": "PUC-Rio",
+          "ano": 2016
+        },
+        {
+          "curso": "Especialização em Arquitetura de Software",
+          "instituicao": "FIAP",
+          "ano": 2020
+        },
+        {
+          "curso": "Certificação em Cloud Computing",
+          "instituicao": "AWS Training",
+          "ano": 2021
         }
       ],
       "projetos": [
         {
-          "titulo": "Projeto 4",
-          "link": "https://github.com/exemplo",
-          "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+          "titulo": "Sistema de Pagamentos Distribuído",
+          "link": "https://github.com/pedro/distributed-payments",
+          "descricao": "Arquitetura completa de sistema de pagamentos com Event Sourcing, CQRS e Saga Pattern. Processamento de 100k+ transações/segundo com consistência eventual."
+        },
+        {
+          "titulo": "API Gateway com Rate Limiting",
+          "link": "https://github.com/pedro/smart-gateway",
+          "descricao": "Gateway inteligente com rate limiting dinâmico, circuit breaker e load balancing. Implementado com Spring Cloud Gateway e Redis para alta performance."
+        },
+        {
+          "titulo": "Monitoramento Real-time com Kafka",
+          "link": "https://github.com/pedro/realtime-monitoring",
+          "descricao": "Sistema de monitoramento em tempo real usando Kafka Streams, Elasticsearch e Grafana. Processamento de logs de 500+ microsserviços com alertas inteligentes."
+        },
+        {
+          "titulo": "Cache Distribuído Inteligente",
+          "link": "https://github.com/pedro/smart-cache",
+          "descricao": "Solução de cache distribuído com TTL dinâmico e invalidação baseada em eventos. Redução de 80% na latência de consultas críticas."
         }
       ],
-      "certificacoes": ["Azure Basics", "AWS Fundamentals"],
+      "certificacoes": [
+        "AWS Solutions Architect Professional",
+        "Google Cloud Professional Cloud Architect",
+        "Oracle Certified Professional Java SE 11",
+        "Kubernetes Certified Application Developer"
+      ],
       "idiomas": [
+        {
+          "idioma": "Inglês",
+          "nivel": "Fluente"
+        },
         {
           "idioma": "Francês",
           "nivel": "Avançado"
+        },
+        {
+          "idioma": "Alemão",
+          "nivel": "Básico"
         }
       ],
-      "areaInteresses": ["IA", "Cloud"]
+      "areaInteresses": [
+        "IA",
+        "Cloud Native",
+        "DevOps",
+        "Blockchain",
+        "Performance Engineering",
+        "Arquitetura de Software"
+      ]
     },
     {
       "id": 5,
       "nome": "Isabela Ferreira Lima",
       "foto": "https://this-person-does-not-exist.com/img/avatar-genf6480ff88f8de5001b78faafeff833ac.jpg",
-      "cargo": "Administrador de Redes",
-      "resumo": "Profissional com experiência em projetos modernos e foco em inovação.",
+      "cargo": "DevOps Engineer",
+      "resumo": "DevOps Engineer especializada em automação e infraestrutura como código. 5+ anos implementando CI/CD, orquestrando containers e otimizando pipelines de deployment. Certificada em AWS e Azure, com foco em segurança e observabilidade.",
       "localizacao": "São Paulo/SP",
-      "area": "Design",
-      "habilidadesTecnicas": ["HTML", "Python", "SQL", "Node.js"],
-      "softSkills": ["Criatividade", "Comunicação", "Adaptabilidade"],
+      "area": "TI",
+      "habilidadesTecnicas": [
+        "AWS",
+        "Azure",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Ansible",
+        "Jenkins",
+        "GitLab CI",
+        "Python",
+        "Bash",
+        "Monitoring",
+        "Prometheus"
+      ],
+      "softSkills": [
+        "Criatividade",
+        "Comunicação",
+        "Adaptabilidade",
+        "Proatividade",
+        "Resolução de problemas"
+      ],
       "experiencias": [
         {
-          "empresa": "Empresa 19",
-          "cargo": "Administrador de Redes",
-          "inicio": "2021-01",
-          "fim": "2024-06",
-          "descricao": "Atuação em tarefas relacionadas à área, contribuindo com melhorias e soluções."
+          "empresa": "MercadoLibre",
+          "cargo": "Senior DevOps Engineer",
+          "inicio": "2022-04",
+          "fim": "Atual",
+          "descricao": "Liderança na migração de 200+ aplicações para Kubernetes na AWS. Implementação de GitOps com ArgoCD e redução de 70% no tempo de deployment. Automação completa de pipelines CI/CD para 50+ equipes de desenvolvimento."
+        },
+        {
+          "empresa": "Magazine Luiza",
+          "cargo": "DevOps Engineer",
+          "inicio": "2020-08",
+          "fim": "2022-03",
+          "descricao": "Implementação de infraestrutura como código com Terraform e Ansible. Configuração de monitoramento distribuído com Prometheus e Grafana. Redução de 80% em incidentes de produção."
+        },
+        {
+          "empresa": "Locaweb",
+          "cargo": "SRE/DevOps Analyst",
+          "inicio": "2019-01",
+          "fim": "2020-07",
+          "descricao": "Automação de deployments e implementação de práticas SRE. Configuração de alertas inteligentes e dashboards de observabilidade. Melhoria de 99.9% para 99.95% em SLA de uptime."
         }
       ],
       "formacao": [
         {
-          "curso": "Design Digital",
-          "instituicao": "Universidade XPTO",
-          "ano": 2020
+          "curso": "Bacharelado em Engenharia de Computação",
+          "instituicao": "FATEC São Paulo",
+          "ano": 2018
+        },
+        {
+          "curso": "Pós-graduação em Cloud Computing",
+          "instituicao": "FIAP",
+          "ano": 2021
+        },
+        {
+          "curso": "Certificação em Site Reliability Engineering",
+          "instituicao": "Google Cloud",
+          "ano": 2022
         }
       ],
       "projetos": [
         {
-          "titulo": "Projeto 5",
-          "link": "https://github.com/exemplo",
-          "descricao": "Projeto desenvolvido com foco em usabilidade e boas práticas."
+          "titulo": "Plataforma Multi-Cloud com Terraform",
+          "link": "https://github.com/isabela/multicloud-terraform",
+          "descricao": "Infraestrutura como código para deployments multi-cloud (AWS, Azure, GCP) com Terraform modules reutilizáveis. Inclui networking, security groups e auto-scaling."
+        },
+        {
+          "titulo": "Pipeline CI/CD Zero-Downtime",
+          "link": "https://github.com/isabela/zero-downtime-pipeline",
+          "descricao": "Pipeline completo com blue-green deployment, testes automatizados e rollback automático. Integração com Slack para notificações e aprovações de produção."
+        },
+        {
+          "titulo": "Monitoring Stack Opensource",
+          "link": "https://github.com/isabela/monitoring-stack",
+          "descricao": "Stack completa de monitoramento com Prometheus, Grafana, AlertManager e Jaeger para tracing distribuído. Dashboards personalizados e alertas inteligentes."
+        },
+        {
+          "titulo": "Kubernetes Security Toolkit",
+          "link": "https://github.com/isabela/k8s-security-toolkit",
+          "descricao": "Conjunto de ferramentas para hardening e security scanning em clusters Kubernetes. Includes Falco, OPA Gatekeeper e network policies automatizadas."
         }
       ],
-      "certificacoes": ["AWS Fundamentals", "Scrum Foundation"],
+      "certificacoes": [
+        "AWS Certified DevOps Engineer Professional",
+        "Azure DevOps Engineer Expert",
+        "Certified Kubernetes Administrator (CKA)",
+        "HashiCorp Certified Terraform Associate"
+      ],
       "idiomas": [
         {
           "idioma": "Inglês",
+          "nivel": "Fluente"
+        },
+        {
+          "idioma": "Espanhol",
           "nivel": "Intermediário"
         }
       ],
-      "areaInteresses": ["IA", "Automação"]
+      "areaInteresses": [
+        "IA",
+        "Automação",
+        "Security",
+        "Observabilidade",
+        "Platform Engineering",
+        "GitOps"
+      ]
     },
     {
       "id": 6,

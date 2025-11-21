@@ -235,7 +235,7 @@ export default function ProfileModal({
           </div>
 
           {/* Experiência */}
-          <div>
+          <div className="mb-8">
             <h3
               className={`text-xl font-bold mb-4 ${
                 isBrightMode ? "text-gray-900" : "text-white"
@@ -288,6 +288,245 @@ export default function ProfileModal({
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* Formação */}
+          {profile.formacao && profile.formacao.length > 0 && (
+            <div className="mb-8">
+              <h3
+                className={`text-xl font-bold mb-4 ${
+                  isBrightMode ? "text-gray-900" : "text-white"
+                }`}
+              >
+                Formação
+              </h3>
+              <div className="space-y-3">
+                {profile.formacao.map((form, i) => (
+                  <div
+                    key={i}
+                    className={`p-4 rounded-lg border ${
+                      isBrightMode
+                        ? "bg-gray-50 border-gray-200"
+                        : "bg-white/5 border-gray-700"
+                    }`}
+                  >
+                    <div className="flex justify-between items-start mb-1">
+                      <h4
+                        className={`font-bold ${
+                          isBrightMode ? "text-gray-900" : "text-white"
+                        }`}
+                      >
+                        {form.curso}
+                      </h4>
+                      <span
+                        className={`text-xs px-2 py-1 rounded ${
+                          isBrightMode
+                            ? "bg-green-100 text-green-700"
+                            : "bg-green-900/30 text-green-400"
+                        }`}
+                      >
+                        {form.ano}
+                      </span>
+                    </div>
+                    <p
+                      className={`text-sm ${
+                        isBrightMode ? "text-gray-600" : "text-gray-400"
+                      }`}
+                    >
+                      {form.instituicao}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Projetos */}
+          {profile.projetos && profile.projetos.length > 0 && (
+            <div className="mb-8">
+              <h3
+                className={`text-xl font-bold mb-4 ${
+                  isBrightMode ? "text-gray-900" : "text-white"
+                }`}
+              >
+                Projetos
+              </h3>
+              <div className="space-y-4">
+                {profile.projetos.map((projeto, i) => (
+                  <div
+                    key={i}
+                    className={`p-4 rounded-lg border ${
+                      isBrightMode
+                        ? "bg-gray-50 border-gray-200"
+                        : "bg-white/5 border-gray-700"
+                    }`}
+                  >
+                    <div className="flex justify-between items-start mb-2">
+                      <h4
+                        className={`font-bold ${
+                          isBrightMode ? "text-gray-900" : "text-white"
+                        }`}
+                      >
+                        {projeto.titulo}
+                      </h4>
+                      {projeto.link && (
+                        <a
+                          href={projeto.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={`text-xs px-2 py-1 rounded hover:scale-105 transition-transform ${
+                            isBrightMode
+                              ? "bg-blue-100 text-blue-700 hover:bg-blue-200"
+                              : "bg-blue-900/30 text-blue-400 hover:bg-blue-800/40"
+                          }`}
+                        >
+                          <svg
+                            className="w-3 h-3 inline mr-1"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                          Ver
+                        </a>
+                      )}
+                    </div>
+                    <p
+                      className={`text-sm ${
+                        isBrightMode ? "text-gray-600" : "text-gray-400"
+                      }`}
+                    >
+                      {projeto.descricao}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Certificações */}
+          {profile.certificacoes && profile.certificacoes.length > 0 && (
+            <div className="mb-8">
+              <h3
+                className={`text-xl font-bold mb-4 ${
+                  isBrightMode ? "text-gray-900" : "text-white"
+                }`}
+              >
+                Certificações
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {profile.certificacoes.map((cert, i) => (
+                  <span
+                    key={i}
+                    className={`px-3 py-2 rounded-lg text-sm font-medium border ${
+                      isBrightMode
+                        ? "bg-amber-50 text-amber-700 border-amber-200"
+                        : "bg-amber-900/30 text-amber-300 border-amber-700"
+                    }`}
+                  >
+                    <svg
+                      className="w-4 h-4 inline mr-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    {cert}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Idiomas e Áreas de Interesse - Grid responsivo */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Idiomas */}
+            {profile.idiomas && profile.idiomas.length > 0 && (
+              <div>
+                <h3
+                  className={`text-xl font-bold mb-4 ${
+                    isBrightMode ? "text-gray-900" : "text-white"
+                  }`}
+                >
+                  Idiomas
+                </h3>
+                <div className="space-y-3">
+                  {profile.idiomas.map((idioma, i) => (
+                    <div
+                      key={i}
+                      className={`p-3 rounded-lg border ${
+                        isBrightMode
+                          ? "bg-gray-50 border-gray-200"
+                          : "bg-white/5 border-gray-700"
+                      }`}
+                    >
+                      <div className="flex justify-between items-center">
+                        <span
+                          className={`font-medium ${
+                            isBrightMode ? "text-gray-900" : "text-white"
+                          }`}
+                        >
+                          {idioma.idioma}
+                        </span>
+                        <span
+                          className={`text-xs px-2 py-1 rounded ${
+                            idioma.nivel === "Fluente" ||
+                            idioma.nivel === "Avançado"
+                              ? isBrightMode
+                                ? "bg-green-100 text-green-700"
+                                : "bg-green-900/30 text-green-400"
+                              : idioma.nivel === "Intermediário"
+                              ? isBrightMode
+                                ? "bg-yellow-100 text-yellow-700"
+                                : "bg-yellow-900/30 text-yellow-400"
+                              : isBrightMode
+                              ? "bg-gray-100 text-gray-700"
+                              : "bg-gray-700 text-gray-400"
+                          }`}
+                        >
+                          {idioma.nivel}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Áreas de Interesse */}
+            {profile.areaInteresses && profile.areaInteresses.length > 0 && (
+              <div>
+                <h3
+                  className={`text-xl font-bold mb-4 ${
+                    isBrightMode ? "text-gray-900" : "text-white"
+                  }`}
+                >
+                  Áreas de Interesse
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {profile.areaInteresses.map((area, i) => (
+                    <span
+                      key={i}
+                      className={`px-3 py-2 rounded-lg text-sm font-medium ${
+                        isBrightMode
+                          ? "bg-purple-50 text-purple-700 border border-purple-200"
+                          : "bg-purple-900/30 text-purple-300 border border-purple-700"
+                      }`}
+                    >
+                      {area}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
