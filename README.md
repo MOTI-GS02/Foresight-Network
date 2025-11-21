@@ -51,28 +51,30 @@ Abra o terminal e execute:
 bash
 git clone https://github.com/MOTI-GS02/Foresight-Network.git
 
-3. Instalando Dependências
+### 3. Instalando Dependências
 Entre na pasta do projeto e instale os pacotes:
 
 Bash
 
 cd Foresight-Network
 npm install
-# ou
+ou
 yarn install
-4. Rodando o Projeto
+
+### 4. Rodando o Projeto
 Inicie o servidor de desenvolvimento:
 
 Bash
 
 npm run dev
-# ou
+ou
 yarn dev
 O projeto estará disponível em: http://localhost:5173
 
-👥 Integrantes do Grupo
-Áurea Sardinha Carminato - RM: 563837
+## 👥 Integrantes do Grupo
 
-Henrique Castro de Matos - RM: 564560
+- **[Áurea Sardinha Carminato]** - RM: [563837]
+- **[Henrique Castro de Matos]** - RM: [564560]
+- **[Laura Tigre Amaral]** - RM: [565281]
 
-Laura Tigre Amaral - RM: 565281
+---
