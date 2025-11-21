@@ -11,11 +11,14 @@ function Home() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
   const [filters, setFilters] = useState({
     searchQuery: "",
     selectedSkill: "",
     selectedPosition: "",
   });
+
+  const ITEMS_PER_PAGE = 12;
 
   // Fetch dos perfis
   useEffect(() => {
@@ -57,9 +60,19 @@ function Home() {
 
   const handleFiltersChange = (newFilters) => {
     setFilters(newFilters);
+    setCurrentPage(1); // Volta para a primeira página ao filtrar
   };
 
-  // Filtrar perfis
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    // Scroll suave para o topo da seção de perfis
+    const profilesSection = document.getElementById("profiles");
+    if (profilesSection) {
+      profilesSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
+  // Filtrar perfis (filtra TODOS os dados, não apenas a página atual)
   const filteredProfiles = useMemo(() => {
     if (!data || data.length === 0) return [];
 
@@ -83,6 +96,12 @@ function Home() {
     });
   }, [filters, data]);
 
+  // Calcular paginação
+  const totalPages = Math.ceil(filteredProfiles.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const paginatedProfiles = filteredProfiles.slice(startIndex, endIndex);
+
   return (
     <div
       className={`min-h-screen w-full relative overflow-x-hidden ${bgClass} transition-colors duration-500`}
@@ -96,9 +115,14 @@ function Home() {
       {/* PROFILE GRID SECTION */}
       <ProfileGrid
         isBrightMode={isBrightMode}
-        filteredProfiles={filteredProfiles}
+        paginatedProfiles={paginatedProfiles}
+        totalProfiles={filteredProfiles.length}
+        currentPage={currentPage}
+        totalPages={totalPages}
+        itemsPerPage={ITEMS_PER_PAGE}
         onFiltersChange={handleFiltersChange}
         onProfileClick={handleOpenProfile}
+        onPageChange={handlePageChange}
         loading={loading}
         error={error}
       />

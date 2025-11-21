@@ -91,7 +91,11 @@ export default function ProfileCard({ data, onClick, isBrightMode }) {
         }`}
       >
         <div>
-          <p className="text-[10px] opacity-60 uppercase font-bold tracking-widest mb-0.5">
+          <p
+            className={`text-[10px] opacity-60 uppercase font-bold tracking-widest mb-0.5 ${
+              isBrightMode ? "text-gray-800" : "text-white"
+            }`}
+          >
             Experiência
           </p>
           <p

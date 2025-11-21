@@ -1,11 +1,17 @@
 import ProfileCard from "./ProfileCard";
 import SearchFilters from "./SearchFilters";
+import PaginationBar from "./PaginationBar";
 
 export default function ProfileGrid({
   isBrightMode,
-  filteredProfiles,
+  paginatedProfiles,
+  totalProfiles,
+  currentPage,
+  totalPages,
+  itemsPerPage,
   onFiltersChange,
   onProfileClick,
+  onPageChange,
   loading = false,
   error = null,
 }) {
@@ -109,9 +115,9 @@ export default function ProfileGrid({
                 Tentar Novamente
               </button>
             </div>
-          ) : filteredProfiles && filteredProfiles.length > 0 ? (
+          ) : paginatedProfiles && paginatedProfiles.length > 0 ? (
             // Success state with profiles
-            filteredProfiles.map((profile) => (
+            paginatedProfiles.map((profile) => (
               <ProfileCard
                 key={profile.id}
                 data={profile}
@@ -147,6 +153,21 @@ export default function ProfileGrid({
             </div>
           )}
         </div>
+
+        {/* PAGINATION BAR */}
+        {!loading &&
+          !error &&
+          paginatedProfiles &&
+          paginatedProfiles.length > 0 && (
+            <PaginationBar
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={onPageChange}
+              isBrightMode={isBrightMode}
+              totalItems={totalProfiles}
+              itemsPerPage={itemsPerPage}
+            />
+          )}
       </div>
     </section>
   );
