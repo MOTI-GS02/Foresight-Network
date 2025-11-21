@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProfileModal({
   profile,
   isOpen,
@@ -12,32 +10,22 @@ export default function ProfileModal({
     if (e.target === e.currentTarget) onClose();
   };
 
-  // Classes para Tema
-  const bgMain = isBrightMode ? "bg-white" : "bg-[#0a0a0a]";
-  const textPrimary = isBrightMode ? "text-gray-900" : "text-white";
-  const textSecondary = isBrightMode ? "text-gray-500" : "text-gray-400";
-  const borderClass = isBrightMode ? "border-gray-200" : "border-gray-800";
-  const cardBg = isBrightMode ? "bg-gray-50" : "bg-white/5";
-  const accentColor = isBrightMode ? "text-indigo-600" : "text-indigo-400";
-  const btnPrimary = isBrightMode
-    ? "bg-indigo-600 hover:bg-indigo-700 text-white shadow-indigo-200"
-    : "bg-indigo-500 hover:bg-indigo-400 text-black shadow-indigo-900/20";
-
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm transition-opacity"
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm transition-opacity"
       onClick={handleOverlayClick}
     >
       <div
-        className={`relative w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl flex flex-col md:flex-row animate-fadeIn ${bgMain}`}
+        className={`relative w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl flex flex-col md:flex-row animate-fadeIn ${
+          isBrightMode ? "bg-white" : "bg-[#0a0a0a]"
+        }`}
       >
-        {/* Botão Fechar (X) */}
+        {/* Botão Fechar */}
         <button
           onClick={onClose}
           className="absolute top-4 right-4 z-50 p-2 rounded-full hover:bg-gray-500/10 transition-colors"
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 text-gray-500"
             fill="none"
             viewBox="0 0 24 24"
@@ -52,106 +40,108 @@ export default function ProfileModal({
           </svg>
         </button>
 
-        {/* SIDEBAR ESQUERDA (Perfil) */}
+        {/* SIDEBAR ESQUERDA */}
         <div
-          className={`md:w-1/3 p-8 flex flex-col items-center text-center border-b md:border-b-0 md:border-r ${borderClass} relative overflow-hidden`}
+          className={`md:w-1/3 p-8 flex flex-col items-center text-center border-b md:border-b-0 md:border-r ${
+            isBrightMode ? "border-gray-200" : "border-gray-800"
+          }`}
         >
-          {/* Background Decorativo na Sidebar */}
-          <div
-            className={`absolute top-0 left-0 w-full h-32 opacity-20 ${
-              isBrightMode
-                ? "bg-gradient-to-b from-indigo-200"
-                : "bg-gradient-to-b from-indigo-900"
-            }`}
-          ></div>
-
-          <div className="relative z-10 mt-4 text-center">
-            {/* Container da Imagem */}
-            <div
-              className={`w-32 h-32 rounded-full p-1 border-2 border-dashed mx-auto mb-4 flex items-center justify-center overflow-hidden ${
-                isBrightMode ? "border-indigo-300" : "border-indigo-500/50"
-              }`}
-            >
+          <div className="mt-4 text-center">
+            {/* Imagem do Perfil */}
+            <div className="w-24 h-24 mx-auto mb-4">
               {profile.foto ? (
                 <img
                   src={profile.foto}
                   alt={profile.nome}
-                  className="w-full h-full rounded-full object-cover"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    const fillColor = isBrightMode ? "%239ca3af" : "%23ffffff";
-
-                    e.target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='${fillColor}' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z'/%3E%3C/svg%3E`;
-
-                    e.target.className = `w-20 h-20 ${
-                      isBrightMode ? "opacity-60" : "opacity-100"
-                    }`;
-                  }}
+                  className="w-full h-full rounded-full object-cover border-2 border-indigo-200"
                 />
               ) : (
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  className={`w-20 h-20 ${
+                <div
+                  className={`w-full h-full rounded-full border-2 flex items-center justify-center ${
                     isBrightMode
-                      ? "text-gray-400 opacity-60"
-                      : "text-gray-200 opacity-100"
+                      ? "border-gray-200 bg-gray-100"
+                      : "border-gray-700 bg-gray-800"
                   }`}
                 >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z" />
-                </svg>
+                  <svg
+                    className={`w-12 h-12 ${
+                      isBrightMode ? "text-gray-400" : "text-gray-500"
+                    }`}
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08s5.97 1.09 6 3.08c-1.29 1.94-3.5 3.22-6 3.22z" />
+                  </svg>
+                </div>
               )}
             </div>
 
-            <h2 className={`text-2xl font-bold ${textPrimary} mb-1`}>
+            <h2
+              className={`text-2xl font-bold mb-1 ${
+                isBrightMode ? "text-gray-900" : "text-white"
+              }`}
+            >
               {profile.nome}
             </h2>
-            <p className={`font-medium ${accentColor} mb-2`}>{profile.cargo}</p>
+            <p
+              className={`font-medium mb-2 ${
+                isBrightMode ? "text-indigo-600" : "text-indigo-400"
+              }`}
+            >
+              {profile.cargo}
+            </p>
 
             <div className="flex items-center justify-center gap-1 opacity-70">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
+                className={`w-4 h-4 ${
+                  isBrightMode ? "text-gray-500" : "text-gray-400"
+                }`}
                 fill="currentColor"
-                className={`w-4 h-4 ${textSecondary}`}
+                viewBox="0 0 20 20"
               >
                 <path
                   fillRule="evenodd"
-                  d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                  d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
                   clipRule="evenodd"
                 />
               </svg>
-              <span className={`text-sm ${textSecondary}`}>
+              <span
+                className={`text-sm ${
+                  isBrightMode ? "text-gray-500" : "text-gray-400"
+                }`}
+              >
                 {profile.localizacao}
               </span>
             </div>
           </div>
 
-          <div className="w-full mt-8 space-y-3 relative z-10">
+          <div className="w-full mt-8 space-y-3">
             <button
-              onClick={() => alert("Mensagem enviada!")}
-              className={`w-full py-3 rounded-xl font-bold shadow-lg transform active:scale-95 transition-all ${btnPrimary}`}
+              className={`w-full py-3 rounded-xl font-bold shadow-lg transition-all ${
+                isBrightMode
+                  ? "bg-indigo-600 hover:bg-indigo-700 text-white"
+                  : "bg-indigo-500 hover:bg-indigo-400 text-black"
+              }`}
             >
               Enviar Mensagem
             </button>
             <button
-              onClick={() => alert("Recomendado!")}
-              className={`w-full py-3 rounded-xl font-bold border transition-all hover:bg-gray-100/5 ${
+              className={`w-full py-3 rounded-xl font-bold border transition-all ${
                 isBrightMode
-                  ? "border-gray-300 text-gray-700"
-                  : "border-gray-700 text-white"
+                  ? "border-gray-300 text-gray-700 hover:bg-gray-50"
+                  : "border-gray-700 text-white hover:bg-white/5"
               }`}
             >
               Recomendar
             </button>
           </div>
 
-          {/* Soft Skills Compactas */}
-          <div className="mt-10 w-full text-left">
+          {/* Soft Skills */}
+          <div className="mt-8 w-full text-left">
             <p
-              className={`text-xs font-bold uppercase tracking-wider mb-3 ${textSecondary}`}
+              className={`text-xs font-bold uppercase tracking-wider mb-3 ${
+                isBrightMode ? "text-gray-500" : "text-gray-400"
+              }`}
             >
               Soft Skills
             </p>
@@ -172,90 +162,102 @@ export default function ProfileModal({
           </div>
         </div>
 
-        {/* CONTEÚDO DIREITA (Detalhes) */}
-        <div className="md:w-2/3 p-8 md:p-10 overflow-y-auto">
-          {/* Seção Sobre */}
+        {/* CONTEÚDO DIREITA */}
+        <div className="md:w-2/3 p-8 overflow-y-auto">
+          {/* Sobre */}
           <div className="mb-8">
-            <h3 className={`text-xl font-bold mb-3 ${textPrimary}`}>Sobre</h3>
-            <p
-              className={`leading-relaxed text-sm md:text-base ${textSecondary}`}
+            <h3
+              className={`text-xl font-bold mb-3 ${
+                isBrightMode ? "text-gray-900" : "text-white"
+              }`}
             >
-              {profile.resumo} Profissional focado em resultados, com histórico
-              comprovado em {profile.area} e paixão por inovação tecnológica.
+              Sobre
+            </h3>
+            <p
+              className={`leading-relaxed ${
+                isBrightMode ? "text-gray-600" : "text-gray-300"
+              }`}
+            >
+              {profile.resumo}
             </p>
           </div>
 
-          {/* Seção Stack Tecnológica (Visual de Grid) */}
+          {/* Stack Tecnológica */}
           <div className="mb-8">
-            <h3 className={`text-xl font-bold mb-4 ${textPrimary}`}>
+            <h3
+              className={`text-xl font-bold mb-4 ${
+                isBrightMode ? "text-gray-900" : "text-white"
+              }`}
+            >
               Stack Tecnológica
             </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div className="flex flex-wrap gap-2">
               {profile.habilidadesTecnicas?.map((tech, i) => (
-                <div
+                <span
                   key={i}
-                  className={`flex items-center gap-3 p-3 rounded-xl border ${
+                  className={`px-3 py-1 rounded-lg text-sm font-medium ${
                     isBrightMode
-                      ? "bg-white border-gray-100 shadow-sm"
-                      : "bg-white/5 border-white/5"
+                      ? "bg-indigo-50 text-indigo-700 border border-indigo-200"
+                      : "bg-indigo-900/30 text-indigo-300 border border-indigo-700"
                   }`}
                 >
-                  <div
-                    className={`w-2 h-2 rounded-full ${
-                      isBrightMode ? "bg-indigo-500" : "bg-blue-400"
-                    }`}
-                  ></div>
-                  <span className={`font-mono text-sm ${textPrimary}`}>
-                    {tech}
-                  </span>
-                </div>
+                  {tech}
+                </span>
               ))}
             </div>
           </div>
 
-          {/* Seção Experiência (Timeline Simplificada) */}
+          {/* Experiência */}
           <div>
-            <h3 className={`text-xl font-bold mb-5 ${textPrimary}`}>
-              Histórico Profissional
+            <h3
+              className={`text-xl font-bold mb-4 ${
+                isBrightMode ? "text-gray-900" : "text-white"
+              }`}
+            >
+              Experiência
             </h3>
-            <div className="space-y-6 relative before:absolute before:left-2 before:top-2 before:bottom-2 before:w-0.5 before:bg-gray-200 dark:before:bg-gray-800">
+            <div className="space-y-4">
               {profile.experiencias?.map((exp, i) => (
-                <div key={i} className="relative pl-8">
-                  {/* Bolinha da Timeline */}
-                  <div
-                    className={`absolute left-0 top-1.5 w-4 h-4 rounded-full border-2 ${
-                      isBrightMode
-                        ? "bg-white border-indigo-500"
-                        : "bg-black border-indigo-500"
-                    }`}
-                  ></div>
-
-                  <div className={`p-5 rounded-2xl ${cardBg}`}>
-                    <div className="flex flex-col sm:flex-row justify-between sm:items-center mb-2">
-                      <h4 className={`font-bold text-lg ${textPrimary}`}>
-                        {exp.cargo}
-                      </h4>
-                      <span
-                        className={`text-xs font-bold px-2 py-1 rounded uppercase tracking-wide ${
-                          isBrightMode
-                            ? "bg-indigo-100 text-indigo-700"
-                            : "bg-indigo-900/30 text-indigo-400"
-                        }`}
-                      >
-                        {exp.inicio} - {exp.fim}
-                      </span>
-                    </div>
-                    <p
-                      className={`font-medium mb-2 ${
-                        isBrightMode ? "text-gray-700" : "text-gray-300"
+                <div
+                  key={i}
+                  className={`p-4 rounded-lg border ${
+                    isBrightMode
+                      ? "bg-gray-50 border-gray-200"
+                      : "bg-white/5 border-gray-700"
+                  }`}
+                >
+                  <div className="flex justify-between items-start mb-2">
+                    <h4
+                      className={`font-bold ${
+                        isBrightMode ? "text-gray-900" : "text-white"
                       }`}
                     >
-                      {exp.empresa}
-                    </p>
-                    <p className={`text-sm ${textSecondary}`}>
-                      {exp.descricao}
-                    </p>
+                      {exp.cargo}
+                    </h4>
+                    <span
+                      className={`text-xs px-2 py-1 rounded ${
+                        isBrightMode
+                          ? "bg-indigo-100 text-indigo-700"
+                          : "bg-indigo-900/30 text-indigo-400"
+                      }`}
+                    >
+                      {exp.inicio} - {exp.fim}
+                    </span>
                   </div>
+                  <p
+                    className={`font-medium mb-2 ${
+                      isBrightMode ? "text-gray-700" : "text-gray-300"
+                    }`}
+                  >
+                    {exp.empresa}
+                  </p>
+                  <p
+                    className={`text-sm ${
+                      isBrightMode ? "text-gray-600" : "text-gray-400"
+                    }`}
+                  >
+                    {exp.descricao}
+                  </p>
                 </div>
               ))}
             </div>

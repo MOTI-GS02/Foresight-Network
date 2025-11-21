@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function NavBar({
@@ -9,12 +9,11 @@ export default function NavBar({
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setIsScrolled(scrollTop > 120);
+      setIsScrolled(window.scrollY > 120);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const handleProfilesClick = (e) => {
@@ -22,78 +21,51 @@ export default function NavBar({
     const el = document.getElementById("profiles");
     if (el) {
       el.scrollIntoView({ behavior: "smooth", block: "start" });
-      window.history.pushState(null, "", "#profiles");
-    } else {
-      window.location.href = "/#profiles";
     }
   };
 
-  // States de cores
-  const [brightTextColor, setBrightTextColor] = useState(() => {
-    try {
-      return localStorage.getItem("nav_bright_text_color") || "#1f2937";
-    } catch (e) {
-      return "#1f2937";
-    }
-  });
-  const [darkTextColor, setDarkTextColor] = useState(() => {
-    try {
-      return localStorage.getItem("nav_dark_text_color") || "#e5e7eb";
-    } catch (e) {
-      return "#e5e7eb";
-    }
-  });
-
-  useEffect(() => {
-    try {
-      localStorage.setItem("nav_bright_text_color", brightTextColor);
-    } catch (e) {}
-  }, [brightTextColor]);
-
-  useEffect(() => {
-    try {
-      localStorage.setItem("nav_dark_text_color", darkTextColor);
-    } catch (e) {}
-  }, [darkTextColor]);
-
-  const textStyle = { color: isBrightMode ? brightTextColor : darkTextColor };
-
-  // Estilo da cápsula do menu
-  const capsuleClass = isBrightMode
-    ? "bg-white/80 border-white/50 shadow-sm shadow-gray-200/50"
-    : "bg-gray-900/80 border-gray-700 shadow-lg shadow-black/40";
-
   return (
     /* Container Principal Fixo */
-    <div className={`fixed top-0 left-0 right-0 flex justify-center z-50 pointer-events-none transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-md pb-6' : ''}`}>
-      {/* Container Limitador de Largura (max-w-6xl) */}
-      <div className="w-full max-w-6xl px-6 flex items-center justify-between relative pt-6">
-        {/* 1. LOGO (Com Imagem + Texto e Link para Home) */}
+    <div
+      className={`fixed top-0 left-0 right-0 flex justify-center z-50 pointer-events-none transition-all duration-300 ${
+        isScrolled
+          ? isBrightMode
+            ? "bg-white/80 backdrop-blur-md pb-6"
+            : "bg-black/80 backdrop-blur-md pb-6"
+          : ""
+      }`}
+    >
+      {/* Container Responsivo */}
+      <div className="w-full max-w-6xl px-4 sm:px-6 flex items-center justify-between relative pt-4 sm:pt-6">
+        {/* 1. LOGO */}
         <div className="pointer-events-auto">
           <Link
             to="/"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+            className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity"
           >
             <img
               src="/foresight-logo.png"
               alt="Foresight Logo"
-              className="w-9 h-9 object-contain drop-shadow-[0_0_10px_rgba(99,102,241,0.5)]"
+              className="w-8 h-8 sm:w-9 sm:h-9 object-contain drop-shadow-[0_0_10px_rgba(99,102,241,0.5)]"
             />
-            <div className="text-xl font-bold text-indigo-400 select-none tracking-tight">
+            <div className="text-lg sm:text-xl font-bold text-indigo-400 select-none tracking-tight">
               Foresight
             </div>
           </Link>
         </div>
 
-        {/* 2. MENU CENTRAL (Cápsula - Absolute Center) */}
+        {/* 2. MENU CENTRAL - Escondido no mobile */}
         <nav
-          className={`pointer-events-auto absolute left-1/2 -translate-x-1/2 flex items-center gap-8 px-8 py-3 rounded-full border backdrop-blur-md transition-all duration-300 ${capsuleClass}`}
+          className={`pointer-events-auto hidden md:flex items-center gap-6 lg:gap-8 px-6 lg:px-8 py-3 rounded-full border backdrop-blur-md transition-all duration-300 absolute left-1/2 -translate-x-1/2 ${
+            isBrightMode
+              ? "bg-white/80 border-white/50 shadow-sm text-gray-900"
+              : "bg-gray-900/80 border-gray-700 shadow-lg text-gray-200"
+          }`}
         >
           <Link
             to="/"
             className="hover:opacity-70 transition-opacity text-sm font-semibold"
-            style={textStyle}
           >
             Início
           </Link>
@@ -102,144 +74,57 @@ export default function NavBar({
             href="#profiles"
             onClick={handleProfilesClick}
             className="hover:opacity-70 cursor-pointer transition-opacity text-sm font-semibold"
-            style={textStyle}
           >
             Perfis
           </a>
 
           <Link
-            to="/contato"
+            to="#contato"
             className="hover:opacity-70 transition-opacity text-sm font-semibold"
-            style={textStyle}
           >
             Contato
           </Link>
         </nav>
 
-        {/* 3. TOGGLE (Original w-28) */}
-        <div className="pointer-events-auto">
+        {/* 3. THEME TOGGLE - Otimizado para mobile */}
+        <button
+          onClick={toggleMode}
+          className={`pointer-events-auto relative w-12 h-6 sm:w-14 sm:h-7 rounded-full p-1 cursor-pointer transition-colors duration-200 touch-manipulation ${
+            isBrightMode
+              ? "bg-white/80 backdrop-blur shadow-sm"
+              : "bg-gray-800/80 backdrop-blur shadow-sm"
+          }`}
+          aria-label={`Mudar para tema ${isBrightMode ? "escuro" : "claro"}`}
+        >
+          {/* Toggle knob */}
           <div
-            role="switch"
-            aria-checked={isBrightMode}
-            tabIndex={0}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" || e.key === " ") toggleMode();
-            }}
-            onClick={toggleMode}
-            className={`relative inline-flex items-center w-28 h-11 rounded-full p-1 cursor-pointer select-none transition-colors duration-200 ease-in-out border border-transparent hover:border-indigo-500/20
-              ${
-                isBrightMode
-                  ? "bg-white/80 backdrop-blur shadow-sm"
-                  : "bg-gray-800/80 backdrop-blur shadow-sm"
-              }`}
+            className={`w-4 h-4 sm:w-5 sm:h-5 bg-white rounded-full shadow-md flex items-center justify-center transform transition-transform duration-200 ${
+              isBrightMode ? "translate-x-0" : "translate-x-6 sm:translate-x-7"
+            }`}
           >
-            <div className="flex items-center justify-between w-full px-2 text-xs">
-              {/* sun icon (left) */}
+            {isBrightMode ? (
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke={isBrightMode ? "#31307c" : "#dadada"}
-                strokeWidth="1.5"
-                className="w-4 h-4"
-              >
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="3"
-                  fill={isBrightMode ? "#3a1879" : "none"}
-                />
-                <path
-                  d="M12 1v2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M12 21v2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M4.2 4.2l1.4 1.4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M18.4 18.4l1.4 1.4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M1 12h2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M21 12h2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M4.2 19.8l1.4-1.4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M18.4 5.6l1.4-1.4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-
-              {/* moon icon (right) */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke={isBrightMode ? "#444444" : "#2c2aa8"}
-                strokeWidth="1.5"
-                className="w-4 h-4"
+                className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
               >
                 <path
-                  d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                  fillRule="evenodd"
+                  d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                  clipRule="evenodd"
                 />
               </svg>
-            </div>
-
-            {/* Knob que se move */}
-            <div
-              className={`absolute top-1 left-1 w-9 h-9 rounded-full shadow-md bg-white flex items-center justify-center transform transition-transform duration-200 ease-in-out
-                ${isBrightMode ? "translate-x-0" : "translate-x-16"}`}
-            >
-              {/* ícones dentro do knob */}
-              {isBrightMode ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  className="w-5 h-5 text-indigo-400"
-                  fill="none"
-                  stroke="#ad87f5"
-                  strokeWidth="1.5"
-                >
-                  <circle cx="12" cy="12" r="3" fill="#693dd1" />
-                </svg>
-              ) : (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  className="w-5 h-5 text-indigo-400"
-                  fill="none"
-                  stroke="#2c2aa8"
-                  strokeWidth="1.5"
-                >
-                  <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-                </svg>
-              )}
-            </div>
+            ) : (
+              <svg
+                className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-gray-700"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+              </svg>
+            )}
           </div>
-        </div>
+        </button>
       </div>
     </div>
   );
