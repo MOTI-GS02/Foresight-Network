@@ -48,7 +48,7 @@ function Home() {
         profile.habilidadesTecnicas?.includes(filters.selectedSkill);
 
       const matchesPosition = filters.selectedPosition === "" ||
-        profile.cargo === filters.selectedPosition;
+        profile.area === filters.selectedPosition;
 
       return matchesSearch && matchesSkill && matchesPosition;
     });

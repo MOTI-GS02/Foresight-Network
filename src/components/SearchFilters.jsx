@@ -42,7 +42,7 @@ export default function SearchFilters({ onFiltersChange, isBrightMode }) {
 
   const clearPosition = () => {
     setSelectedPosition("");
-    onFiltersChange({ searchQuery, selectedSkill: "", selectedPosition: "" });
+    onFiltersChange({ searchQuery, selectedSkill, selectedPosition: "" });
   };
 
   return (
@@ -88,7 +88,7 @@ export default function SearchFilters({ onFiltersChange, isBrightMode }) {
               : "bg-gray-800 border-gray-600 text-white hover:border-indigo-500"
           }`}
         >
-          <span className={selectedSkill ? "text-gray-900" : "text-gray-500"}>
+          <span className={selectedSkill ? (isBrightMode ? "text-gray-900" : "text-white") : (isBrightMode ? "text-gray-500" : "text-gray-400")}>
             {selectedSkill || "Filtrar por Skill"}
           </span>
           <svg
@@ -141,7 +141,7 @@ export default function SearchFilters({ onFiltersChange, isBrightMode }) {
               : "bg-gray-800 border-gray-600 text-white hover:border-indigo-500"
           }`}
         >
-          <span className={selectedPosition ? "text-gray-900" : "text-gray-500"}>
+          <span className={selectedPosition ? (isBrightMode ? "text-gray-900" : "text-white") : (isBrightMode ? "text-gray-500" : "text-gray-400")}>
             {selectedPosition || "Filtrar por Cargo"}
           </span>
           <svg
